@@ -1,0 +1,28 @@
+{
+  "name": "2025park",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "autoless": "^0.1.7",
+    "jquery": "^3.2.1",
+    "live-server": "^1.2.0",
+    "lodash": "^4.17.4",
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm-run-all -p less server",
+    "server": "live-server --ignore='**/.git/**,**/node_modules/**'",
+    "less": "autoless ./css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://root@120.25.193.220/mydata/2025park/.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
